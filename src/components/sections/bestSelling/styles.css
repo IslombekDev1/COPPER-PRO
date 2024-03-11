@@ -1,0 +1,125 @@
+#app {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  /* background: #eee; */
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  /* width: 1426px; */
+  position: relative;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  /* background: #fff; */
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 49px;
+}
+
+.swiper-slide div {
+  width: 446px;
+}
+
+
+.swiper-slide img {
+  display: block;
+  width: 446px;
+  height: 491px;
+  object-fit: cover;
+}
+
+.swiper-slide-active {
+  height: auto;
+  gap: 30px;
+}
+
+.container-fluid::after {
+  content: '';
+  top: 36%;
+  justify-content: start;
+  width: 253px;
+  height: 50px;
+  background: linear-gradient(92deg, #5E3928 20.13%, #E4A16F 92.93%);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 98px;
+  height: 50px;
+  position: absolute;
+  top: 36%;
+  justify-content: start;
+  border-width: 1px 0 1px 1px;
+  border-style: solid;
+  border-color: #031412;
+  background-color: transparent;
+}
+
+.swiper-button-prev {
+  border-width: 1px 1px 1px 0;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  position: absolute;
+  right: 25px;
+  color: black;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.swiper-button-next::after {
+  left: 25px;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: unset;
+}
+
+.swiper-pagination-bullet{
+  width: 12px;
+height: 12px;
+border-radius: unset;
+background-color: black;
+opacity: 1;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: #B27A55;
+}
+
+.photosAPI-descBox p{
+  flex: 1;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.photosAPI-descBox span {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  margin-left: auto;
+  margin-top: auto;
+  font-size: 30px;
+  font-weight: 800;
+}

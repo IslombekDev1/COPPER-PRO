@@ -1,0 +1,44 @@
+*{
+  list-style: none;
+  font-family: Mont;
+  scroll-behavior: smooth;
+}
+
+section{
+  position: relative;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration-line: unset;
+}
+
+.goToCatalogBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 42px auto 0;
+  width: 327px;
+  height: 50px;
+  font-family: Mont;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 96.4%;
+  border-radius: unset;
+  border-color: white;
+  color: white;
+  background: linear-gradient(92deg, #5E3928 20.13%, #E4A16F 92.93%);
+}
+
+.goToCatalogBtn:hover {
+  color: white;
+  background: linear-gradient(50deg, #10c649 50%, #e08f51 50%);
+}
+
+p{
+  font-family: Mont;
+}

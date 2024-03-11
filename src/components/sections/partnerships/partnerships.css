@@ -1,0 +1,43 @@
+section#partnerships{
+    padding: 81px 0 39px;
+    background-color: #dfdfdf;
+}
+
+.partnerBox{
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 34px 0;
+    font-family: Mont;
+}
+
+.partnerBox div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.partnerBox img{
+    margin-bottom: 9px;
+}
+
+.partnerBox strong{
+    display: block;
+    font-size: 20px;
+    line-height: 96.4%;
+}
+
+.partnerBox p{
+    width: 308px;
+    line-height: 134.4%;
+}
+
+.partnerBox div select{
+    border-style: none;
+    font-weight: 800;
+    background: linear-gradient(66deg, #5E3928 -24.09%, #E4A16F 104.02%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

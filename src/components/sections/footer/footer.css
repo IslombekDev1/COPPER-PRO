@@ -1,0 +1,85 @@
+footer{
+    position: relative;
+    padding: 80px 318px 74px 264px;
+    background: linear-gradient(285deg, #0B3F37 38.27%, #CB8D62 141.81%);
+}
+
+.footer__Container{
+    display: flex;
+    justify-content: space-between;
+
+    a {
+        color: black;
+    }
+
+    .copperProBox{
+        display: flex;
+        flex-direction: column;
+        gap: 21px 0;
+
+        span{
+            margin-top: 3px;
+            color: #ADADAD;
+            line-height: 134.4%; /* 18.816px */
+            + a{
+                color: #FFF;
+                line-height: 134.4%; /* 18.816px */
+                text-decoration-line: underline;
+            }
+        }
+    }
+}
+
+.ft-ul-title{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 96.4%; /* 17.352px */
+}
+
+.ft-contact-box{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 70px;
+}
+
+.ft-contact-box__first-ul{
+    margin-right: 67px;
+}
+
+.ft-contact-box ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+}
+
+.footer__Container ul li a{
+    color: #FFF;
+    line-height: 134.4%; /* 18.816px */
+}
+
+.ft-iconsBox ul{
+    flex-direction: row;
+    gap: 8px;
+}
+
+.ft-up-box{
+    position: absolute;
+    bottom: 0;
+    right: 116px;
+    width: 50px;
+    height: 176px;
+    padding: 27px 16px 93px 17px;
+    background: linear-gradient(92deg, #5E3928 20.13%, #E4A16F 92.93%);
+}
+
+.ft-up-box a{
+    display: block;
+    transform: rotate(90deg);
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 96.4%; /* 17.352px */
+}

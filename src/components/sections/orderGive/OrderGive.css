@@ -1,0 +1,16 @@
+section#orderGive .container {
+    position: relative;
+    max-width: 1920px;
+    height: 61vh;
+    background-image: url('../../../assets/bgOrderGiveAll.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+section#orderGive button {
+    position: absolute;
+    top: 63.7%;
+    left: 13.7%;
+    margin: 0;
+    border-radius: unset;
+}

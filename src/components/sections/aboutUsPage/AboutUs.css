@@ -1,0 +1,20 @@
+section#aboutUs{
+    padding: 80px 0;
+}
+
+.Ivan{
+    width: 63px !important;
+    height: 63px !important;
+}
+
+.aboutUsBox {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 12px 40px 18px 30px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+.aboutUsBox p{
+    margin: 0;
+}

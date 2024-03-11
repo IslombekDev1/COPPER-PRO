@@ -1,0 +1,98 @@
+.carouselWrapper{
+    display: flex;
+    position: relative;
+    height: 100vh;
+}
+
+.carouselBox{
+    display: flex;
+    overflow: hidden;
+}
+
+.carouselItem{
+    width: 1903px;
+    height: 93.8%;
+}
+
+.carousel__btn{
+    top: 50% !important;
+    border-color: white !important;
+}
+
+.carousel__btn::after{
+    color: white !important;
+
+}
+
+.carousel__btn[data-btn-type='left']{
+    left: 0;
+}
+
+.carousel__btn[data-btn-type='right']{
+    right: 0;
+}
+
+.dots{
+    display: flex;
+    gap: 0 5px;
+    position: absolute;
+    bottom: 150px;
+    left: 262px;
+}
+
+.dot{
+    width: 12px;
+    height: 12px;
+    /* padding: 0 7px; */
+    font-weight: 600;
+    background-color: grey;
+    border-color: transparent;
+    background-color: #FFF;
+    border-style: none;
+}
+
+.dot:active{
+    background: linear-gradient(66deg, #6bb842 -24.09%, #16fd05 104.02%);
+}
+
+.bestsellerTitleBox{
+    position: absolute;
+    top: 145px;
+    left: 261px;
+    color: #FFF;
+    line-height: 96.4%; /* 28.92px */
+    
+}
+
+.bestsellerTitleBox h2{
+    font-family: Lighthaus;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74.9%; /* 74.9px */
+}
+
+.bestsellerTitleBox h3{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    margin: 100px 0 40px;
+}
+
+.bestsellerTitleBox div span{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 109px;
+
+}
+
+.bestsellerTitleBox div b{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.bestsellerTitleBox div button{
+    margin: 41px 0 0;
+}

@@ -1,0 +1,68 @@
+section#bestSelling {
+    margin: 80px 0 0;
+    padding: 80px 0;
+    background-color: #dfdfdf;
+}
+
+/* .bestSellingDescBox{
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+    padding-top: 32px;
+    color: #031412;
+    font-family: Mont;
+    line-height: 96.4%; /* 19.28px */
+
+/* .bestSellingDescBox p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.bestSellingDescBox span{
+    font-size: 30px;
+    font-weight: 800;
+} */
+
+/* .photosAPI-images {
+    width: 100%;
+} */
+
+/* .photosAPI-descBox {
+    margin-top: 36px;
+    justify-content: space-between;
+    padding-left: 15px;
+    color: #031412;
+    font-family: Mont;
+    line-height: 96.4%;
+} */
+
+/* #bestSelling .photosAPI-descBox p {
+    flex: 1;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+}
+
+.photosAPI-descBox span {
+    display: flex;
+    justify-content: end;
+    flex: 1;
+    margin-left: auto;
+    margin-top: auto;
+    font-size: 30px;
+    font-weight: 800;
+
+} */
+
+section#bestSelling .swiper-button-prev,
+section#bestSelling .swiper-button-next {
+    background: linear-gradient(92deg, #5E3928 20.13%, #E4A16F 92.93%);
+    border-style: none;
+}
+
+section#bestSelling .swiper-button-prev::after,
+section#bestSelling .swiper-button-next::after {
+    color: white;
+}

@@ -1,0 +1,32 @@
+section#newItems {
+    position: relative;
+    padding: 80px 0 82px;
+}
+
+.photosAPI-descBoxInNewItems {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+}
+
+.oldAndNewPriceBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+    font-family: Mont;
+    line-height: 96.4%;
+}
+
+.oldAndNewPriceBox del {
+    color: grey;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.oldAndNewPriceBox span {
+    color: #9B0000;
+    font-size: 30px;
+    font-weight: 800;
+}

@@ -1,0 +1,33 @@
+.container {
+    max-width: 1397px;
+}
+
+h2.ourProduction {
+    color: #031412;
+    text-align: center;
+    font-family: Lighthaus;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 74.9%;
+    text-transform: uppercase;
+}
+
+.photosAPIContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    justify-content: center;
+}
+
+.photosAPI-box p.position-absolute {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    bottom: 27px;
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 96.4%;
+}
